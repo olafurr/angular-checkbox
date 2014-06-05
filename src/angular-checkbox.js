@@ -33,7 +33,7 @@ angular.module('ngCheckbox', [])
 
 					if (scope.ngModel) {
 						elem.css({
-							'background-image': 'url(./check.png)',
+							'background-image': 'url(images/check.png)',
 							'background-size': scope.size + 'px'
 						});
 					} else {
