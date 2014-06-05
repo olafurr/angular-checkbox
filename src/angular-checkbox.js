@@ -11,10 +11,10 @@ angular.module('ngCheckbox', [])
 				ngModel: '=',
 				size: '='
 			},
-			link: function (scope, elem, attrs) {
+			link: function ($scope, elem, attrs) {
 
-				scope.ngModel = false;
-				console.log(scope.size)
+				$scope.ngModel = false;
+
 				elem.css({
 					'position': 'relative',
 					'display': 'inline-block',
@@ -28,7 +28,7 @@ angular.module('ngCheckbox', [])
 
 				elem.on('click', function () {
 					$rootScope.$apply(function () {
-						scope.ngModel = !scope.ngModel;
+						$scope.ngModel = !$scope.ngModel;
 					});
 
 					if (scope.ngModel) {
