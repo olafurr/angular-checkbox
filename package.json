@@ -1,0 +1,24 @@
+{
+  "name": "angular-checkbox",
+  "version": "0.0.1",
+  "description": "Simple checkbox directive for Angularjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "checkbox",
+    "html5"
+  ],
+  "author": "Olafur Gardarsson <olafurlax@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.7.0",
+    "gulp-jshint": "^1.6.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.0",
+    "jshint-stylish": "^0.2.0"
+  }
+}
